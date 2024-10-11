@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TableComponent } from './table.component';
+import { NgforDemoComponent } from './ngfor-demo.component';
 
-describe('TableComponent', () => {
-  let component: TableComponent;
-  let fixture: ComponentFixture<TableComponent>;
+describe('NgforDemoComponent', () => {
+  let component: NgforDemoComponent;
+  let fixture: ComponentFixture<NgforDemoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TableComponent]
+      imports: [NgforDemoComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TableComponent);
+    fixture = TestBed.createComponent(NgforDemoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
