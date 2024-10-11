@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './onewaybinding.component.css'
 })
 export class OnewaybindingComponent {
-
+imageikii='https://i.etsystatic.com/22966189/r/il/5ab71a/2344484538/il_570xN.2344484538_cmq6.jpg'
   first: string = "helloooo"
   second: number = 12
 incree: number=0
