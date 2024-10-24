@@ -9,5 +9,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './twowaybinding.component.css'
 })
 export class TwowaybindingComponent {
-name: String="Dolly"
+  name: String = "Dolly"
+  names: String = "sravs"
+  
 }

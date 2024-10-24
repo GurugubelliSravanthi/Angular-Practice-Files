@@ -15,7 +15,9 @@ incree: number=0
   count() {
     this.incree++
   }
-
+  meth() {
+    alert("dont open")
+  }
 
   
 

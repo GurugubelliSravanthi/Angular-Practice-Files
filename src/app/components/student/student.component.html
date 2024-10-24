@@ -1,0 +1,31 @@
+<p>{{teacher}}</p>
+<p>{{black}}</p>
+
+{{num}}
+
+<ul>
+  <li *ngFor="let i of objj">{{i.id}}{{i.name}}</li>
+</ul>
+<ul>
+  <li *ngFor="let j of ofc"> {{j.age}}{{j.job}}</li>
+</ul>
+<ul>
+  <li *ngFor="let l of you">{{l.people}}{{l.course}}  </li>
+</ul>
+
+<table>
+  <tr>
+    <th>id</th>
+    <th>name</th>
+    <th>people</th>
+    <th>course</th>
+  </tr>
+  <tr *ngFor="let i of objj">
+    <td>{{i.id}}</td>
+    <td>{{i.name}}</td>
+  </tr>
+  <tr *ngFor="let l of you">
+    <td>{{l.people}}</td>
+    <td>{{l.course}}</td>
+  </tr>
+</table>

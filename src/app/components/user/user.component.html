@@ -1,0 +1,15 @@
+<div>
+  <h1>User List</h1>
+
+  <ul>
+    <li *ngFor="let user of users">
+      {{ user.id }} - {{ user.name }}
+      <button (click)="deleteUser(user.id)">Delete</button>
+      <button (click)="updateUser(user)">Update</button>
+    </li>
+  </ul>
+
+  <h2>Add User</h2>
+  <input [(ngModel)]="newUser.name" placeholder="User Name" />
+  <button (click)="addUser()">Add</button>
+</div>
