@@ -9,6 +9,7 @@ import { AllComponent } from './components/all/all.component';
 import { StudentComponent } from './components/student/student.component';
 import { UserComponent } from './components/user/user.component';
 import { DemoComponent } from './components/demo/demo.component';
+import { TutorialComponent } from './components/tutorial/tutorial.component';
 
 export const routes: Routes = [
   { path: 'dolly', component: LoginComponent },
@@ -20,5 +21,6 @@ export const routes: Routes = [
   { path: 'all', component: AllComponent },
   { path: 'student', component: StudentComponent },
   { path: 'user', component: UserComponent },
-  { path: 'demo2',component: DemoComponent},
+  { path: 'demo2', component: DemoComponent },
+  { path: 'tut',component:TutorialComponent},
 ];
