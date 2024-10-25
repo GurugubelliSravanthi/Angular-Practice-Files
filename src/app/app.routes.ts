@@ -8,6 +8,7 @@ import { NgforDemoComponent } from './components/ngfor-demo/ngfor-demo.component
 import { AllComponent } from './components/all/all.component';
 import { StudentComponent } from './components/student/student.component';
 import { UserComponent } from './components/user/user.component';
+import { DemoComponent } from './components/demo/demo.component';
 
 export const routes: Routes = [
   { path: 'dolly', component: LoginComponent },
@@ -18,5 +19,6 @@ export const routes: Routes = [
   { path: 'demo', component: NgforDemoComponent },
   { path: 'all', component: AllComponent },
   { path: 'student', component: StudentComponent },
-  { path: 'user',component: UserComponent}
+  { path: 'user', component: UserComponent },
+  { path: 'demo2',component: DemoComponent},
 ];

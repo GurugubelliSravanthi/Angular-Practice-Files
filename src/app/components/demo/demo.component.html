@@ -1,1 +1,41 @@
-<p>demo works!</p>
+<!-- interpolation -->
+<p>{{one}}</p>
+<!-- property binding -->
+<img [src]="image" [width]=size>
+<a [href]="link">click</a>
+<!-- event binding -->
+<button (click)="meth()">counter</button>
+<p>{{two}}</p>
+<button (click)="alertt()">alert</button>
+<button (click)="meths()">print page</button>
+<button (click)="met()">open</button>
+<button (click)="tommy()">{{t}}</button>
+
+<p>{{h}}</p>
+<!-- property binding -->
+<button [disabled]="links">disable</button>
+<button (click)="helcy()">toggle</button>
+<!-- twoway -->
+<input [(ngModel)]="twoway">
+<!-- <p>{{twoway}}</p> -->
+<button [disabled]="!twoway" (click)="alerty()" >jiiii</button>
+
+<!-- built in directives -->
+<h1 [ngStyle]="{color:'red'}">heading</h1>
+<h1 [ngClass]="'helllo'">wdvsv</h1>
+
+<h1 *ngIf="japan">i am from hell</h1>
+<button (click)="helcyPapa()">ng</button>
+<h1 *ngIf="paris">i am from heaven</h1>
+<button (click)="dolly()">if</button>
+
+<select [(ngModel)]="courses" >
+
+<option type="option">python</option>
+<option type="option">java</option>
+<option type="option">c</option>
+<option type="option">c++</option>
+</select>
+<p>Selected course: {{courses}}</p>
+
+
