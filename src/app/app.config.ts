@@ -6,5 +6,8 @@ import { provideClientHydration } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes),importProvidersFrom(HttpClientModule), provideClientHydration()]
+  providers: [provideZoneChangeDetection({ eventCoalescing: true }),
+    provideRouter(routes),
+    importProvidersFrom(HttpClientModule), //added http clientmodule
+    provideClientHydration()]
 };
